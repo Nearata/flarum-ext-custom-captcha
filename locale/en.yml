@@ -1,8 +1,18 @@
 nearata-custom-captcha:
-  # For more details on the format
-  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
   admin:
-    my_cool_key: My Cool Key
+    settings:
+      signup:
+        section_label: Sign Up Settings
+        enabled: Enabled
+        captcha_types:
+          label: Type
+          math: Math
 
   forum:
-    my_cool_key: My Cool Key
+    signup:
+      math:
+        input_label: Captcha
+        input_placeholder: Answer
+        input_aria_label: Math Captcha
+    error:
+      invalid_captcha: The captcha answer is incorrect.

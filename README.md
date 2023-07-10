@@ -6,6 +6,10 @@
 
 > Custom Captcha for Flarum
 
+## Bounty
+
+- https://discuss.flarum.org/d/33085-build-me-an-anti-spam-questions-extension-ps200-pp
+
 ## Install
 
 ```sh
